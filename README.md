@@ -43,8 +43,6 @@ pnpm dev
 
 App runs at `http://localhost:3000`.
 
-See [docs/PHASE1_SETUP.md](docs/PHASE1_SETUP.md) for Clerk, Stripe, Resend, and shadow seeding.
-
 ## Phase 1 (Developer Foundation)
 
 - **Clerk GitHub/LinkedIn bootstrap** — sign in with GitHub via Clerk; username auto-syncs to evidence ingest (no `GITHUB_CLIENT_ID`)
