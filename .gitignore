@@ -1,0 +1,9 @@
+.firecrawl/
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.exe
+backend/bin/
+frontend/node_modules/

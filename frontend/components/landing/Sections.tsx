@@ -1,0 +1,14 @@
+export { Hero } from "./HeroSection";
+export { LandingNavbar } from "./LandingNavbar";
+export { SocialProof } from "./SocialProof";
+export { FeaturedProfiles } from "./FeaturedProfilesSection";
+export { PassportDemo } from "./PassportDemo";
+export { Problem } from "./Problem";
+export { Architecture } from "./Architecture";
+export { HowItWorks } from "./HowItWorks";
+export { Testimonials } from "./Testimonials";
+export { ScoreExplainer } from "./ScoreExplainer";
+export { IntegrationEcosystem } from "./IntegrationEcosystem";
+export { Pricing } from "./Pricing";
+export { Principles } from "./Principles";
+export { FinalCTA } from "./FinalCTA";
