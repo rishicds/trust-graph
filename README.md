@@ -86,23 +86,6 @@ App runs at `http://localhost:3000`.
 | POST | `/v1/onboarding/complete` | Complete onboarding (auth) |
 | POST | `/v1/profiles/{handle}/claim` | Claim shadow profile (auth) |
 
-## Shadow profile batch ingest
-
-Fetch top GitHub users from [Gitstar Ranking](https://gitstar-ranking.com/users) and seed shadow profiles:
-
-```bash
-cd backend
-
-# Fetch top 100 users (page 1) to data/shadow_github_users.txt
-go run ./cmd/seed-shadows -gitstar -fetch-only -pages 1
-
-# Fetch 10 pages (~1,000 users) and seed MongoDB (requires GITHUB_TOKEN)
-go run ./cmd/seed-shadows -gitstar -pages 10
-
-# Seed from an existing username file
-go run ./cmd/seed-shadows data/shadow_github_users.txt
-```
-
 Each gitstar-ranking page lists 100 users; up to 100 pages (~10,000 profiles) are available.
 
 Set `GITHUB_TOKEN` for accurate merged PR counts and richer evidence.
